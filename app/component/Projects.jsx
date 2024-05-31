@@ -24,22 +24,20 @@ const Projects = () => {
             description: "Pastehub was me and my friends Roblox script for phantom forces we ended up discontinuing it. R.I.P Pastehub",
             link: ""
         },
-
-
     ];
 
     return (
-        <section id="projects" className="mt-10">
-            <h2 className="text-2xl font-semibold mb-2 text-center">Projects</h2>
+        <section id="projects" className="mt-4 md:mt-10">
+            <h2 className="text-xl md:text-2xl font-semibold mb-2 text-center">Projects</h2>
             <div className="flex flex-wrap justify-center items-start">
                 {projects.map((project, index) => (
                     <div key={index}
-                         className="max-w-2xl m-4 bg-zinc-700 shadow-md rounded px-4 pt-6 pb-8 mb-4 flex flex-col">
-                        <div className="font-bold text-xl mb-2 text-amber-50">{project.title}</div>
-                        <p className="text-sm text-amber-50">{project.duration}</p>
-                        <p className="text-base mb-2 text-amber-50">{project.description}</p>
+                         className="max-w-2xl m-2 md:m-4 bg-zinc-700 shadow-md rounded px-2 md:px-4 pt-4 md:pt-6 pb-4 md:pb-8 mb-4 flex flex-col">
+                        <div className="font-bold text-lg md:text-xl mb-2 text-amber-50">{project.title}</div>
+                        <p className="text-xs md:text-sm text-amber-50">{project.duration}</p>
+                        <p className="text-sm md:text-base mb-2 text-amber-50">{project.description}</p>
                         <a href={project.link} target="_blank" rel="noopener noreferrer"
-                           className="text-blue-500 hover:text-blue-800 text-sm mt-2">View Project</a>
+                           className="text-blue-500 hover:text-blue-800 text-xs md:text-sm mt-2">View Project</a>
                     </div>
                 ))}
             </div>
