@@ -3,7 +3,7 @@ const Projects = () => {
         {
             title: "Project-Kero",
             duration: "May 2024 - Present",
-            description: "Project-Kero is my latest project, It's a cs2 hvh cheat for me and my friends. The idea behind it was mainly so I don't need to pay for cheats.",
+            description: "Project-Kero is my latest project, It's a cs2 cheat for me and my friends. The idea behind it was mainly so I don't need to pay for cheats.",
         },
         {
             title: "School Work",
@@ -20,7 +20,7 @@ const Projects = () => {
         {
             title: "Pastehub",
             duration: "June 2022 - december 2022",
-            description: "Pastehub was me and my friends Roblox script for phantom forces we ended up discontinuing it. R.I.P Pastehub",
+            description: "Pastehub was me and my friend's Roblox script for phantom forces we ended up discontinuing it. R.I.P Pastehub",
             link: ""
         },
     ];
