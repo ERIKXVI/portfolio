@@ -4,12 +4,11 @@ const Projects = () => {
             title: "Project-Kero",
             duration: "May 2024 - Present",
             description: "Project-Kero is my latest project, It's a cs2 hvh cheat for me and my friends. The idea behind it was mainly so I don't need to pay for cheats.",
-            link: ""
         },
         {
             title: "School Work",
             duration: "Feb 2023 - June 2024",
-            description: "This isn't really a project if you think about it but I'm gonna include it anyways. This is the all my school work after we started working with github",
+            description: "This isn't really a project if you think about it but I'm gonna include it anyways. This is all my school work after we started working with github",
             link: "https://github.com/ERIKXVI/School-Work"
         },
         {
